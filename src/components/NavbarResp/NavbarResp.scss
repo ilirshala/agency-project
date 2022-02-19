@@ -1,0 +1,13 @@
+.navbarRespDiv {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  gap: 40px;
+  h3 {
+    font-size: 22px;
+  }
+}

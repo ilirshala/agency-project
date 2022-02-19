@@ -1,0 +1,82 @@
+.homeSecond {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 5%;
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: orange;
+    margin-bottom: 10px;
+  }
+  div {
+    width: 100px;
+    height: 2px;
+    background: orange;
+    margin-bottom: 50px;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .homeSecond {
+    width: 95%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      padding: 0 20px;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .homeSecond {
+    width: 95%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      padding: 0 20px;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .homeSecond {
+    width: 95%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      padding: 0 20px;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .homeSecond {
+    width: 95%;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      padding: 0 70px;
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

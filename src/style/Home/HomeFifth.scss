@@ -1,0 +1,30 @@
+.homeFifth {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  padding: 3% 0;
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: orange;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .line {
+    width: 100px;
+    height: 2px;
+    background: orange;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  &__row {
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 40px;
+  }
+}

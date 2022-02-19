@@ -1,0 +1,66 @@
+.homeThird {
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+  margin-bottom: 5%;
+  padding: 3% 0;
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: orange;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .line {
+    width: 100px;
+    height: 2px;
+    background: orange;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  &__row {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .homeThird {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .homeThird {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .homeThird {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

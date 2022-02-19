@@ -1,0 +1,146 @@
+.homeSixth {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  padding: 3% 0;
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: orange;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .line {
+    width: 100px;
+    height: 2px;
+    background: orange;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  form {
+    width: 35%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .namesDiv {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      input {
+        width: 45%;
+        border: 1px solid lightgray;
+        color: black;
+        outline: none;
+        height: 45px;
+        border-radius: 10px;
+        padding: 0 15px;
+        transition: 0.3s linear;
+        &:focus {
+          box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+          -webkit-box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+          -moz-box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+        }
+      }
+    }
+    textarea,
+    input {
+      width: 100%;
+      border: 1px solid lightgray;
+      color: black;
+      outline: none;
+      height: 45px;
+      border-radius: 10px;
+      padding: 0 15px;
+      transition: 0.3s linear;
+      &:focus {
+        box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+        -webkit-box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+        -moz-box-shadow: 3px 2px 45px 0px rgba(255, 118, 0, 0.75);
+      }
+    }
+    textarea {
+      height: 150px;
+      padding-top: 15px;
+    }
+    button {
+      width: 180px;
+      height: 50px;
+      border-radius: 200px;
+      outline: none;
+      border: 2px solid transparent;
+      color: white;
+      background-color: orange;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.2s linear;
+      &:hover {
+        background-color: white;
+        color: orange;
+        border: 2px solid orange;
+      }
+    }
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .homeSixth {
+    width: 100%;
+    h1 {
+      font-size: 30px;
+    }
+    form {
+      width: 90%;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .homeSixth {
+    width: 100%;
+    h1 {
+      font-size: 30px;
+    }
+    form {
+      width: 90%;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .homeSixth {
+    width: 100%;
+    h1 {
+      font-size: 30px;
+    }
+    form {
+      width: 71%;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .homeSixth {
+    width: 100%;
+    h1 {
+      font-size: 30px;
+    }
+    form {
+      width: 90%;
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

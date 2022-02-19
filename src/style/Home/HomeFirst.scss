@@ -1,0 +1,91 @@
+.homeFirst {
+  width: 100%;
+  height: 80vh;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../../assets/banner.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  margin-bottom: 3%;
+  h1 {
+    font-size: 150px;
+  }
+  p {
+    font-size: 30px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .homeFirst {
+    width: 100%;
+    height: 80vh;
+    gap: 2px;
+    h1 {
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 18px;
+      width: 95%;
+    }
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .homeFirst {
+    width: 100%;
+    height: 80vh;
+    gap: 2px;
+    h1 {
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 18px;
+      width: 95%;
+    }
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .homeFirst {
+    width: 100%;
+    height: 80vh;
+    gap: 2px;
+    h1 {
+      font-size: 70px;
+    }
+    p {
+      font-size: 20px;
+      width: 75%;
+    }
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .homeFirst {
+    width: 100%;
+    height: 80vh;
+    gap: 2px;
+    h1 {
+      font-size: 100px;
+    }
+    p {
+      font-size: 20px;
+      width: 75%;
+    }
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}
